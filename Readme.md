@@ -1,6 +1,6 @@
 # Introduction
 
-Nuget [(https://www.nuget.org/packages/LiveReloading.Middleware/1.0.1)].
+(LiveReloading.Middleware)[https://www.nuget.org/packages/LiveReloading.Middleware/1.0.1]
 
 In order to plug the liver reload add the live reload middleweare : app.AddLiveReload(), in order to override use LiveReloadingSettings 
 
