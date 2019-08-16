@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<p>This is a test for the live reload. This is awsome great</p>
+
+Now contents are overridden!! test
+this is very good ok
+
+<input type="button" id="btn" value="Simple button"/>
+
+<script>
+
+    var btn = document.getElementById("btn");
+    btn.addEventListener("click", e => {
+        alert(new Date());
+    })
+</script>
