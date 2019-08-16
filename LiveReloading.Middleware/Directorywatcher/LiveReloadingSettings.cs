@@ -10,7 +10,7 @@ namespace LiveReloading.Middleware
 
         public LiveReloadingSettings()
         {
-            WebProjectPath = Path.Combine(Directory.GetCurrentDirectory(), "../LiveRelaoding.Web");
+            WebProjectPath = Path.Combine(Directory.GetCurrentDirectory());
             FilesToWatchForChange = "*.*";
             IncludeSubDirectories = true;
         }

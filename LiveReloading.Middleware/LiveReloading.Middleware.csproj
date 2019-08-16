@@ -3,7 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>This is a basic middleware to enable live reload. WIP !</Description>
+    <Description>It is a simple middleware which will enable live reload. You have to add the middleware:
+
+app.UseLiveReload();
+LiveReloadingSettings can be use to override settings.
+
+https://github.com/kmughal/LiveRealoadAspNetCore github link fork it or changeit if you want
+</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
